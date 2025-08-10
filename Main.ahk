@@ -821,11 +821,11 @@ quickDetect(color1, color2, variation := 10, x1Ratio := 0.0, y1Ratio := 0.0, x2R
 
 ; item arrays
 
-seedItems := ["Carrot Seed", "Strawberry Seed", "Blueberry Seed", "Tomato Seed"
-             , "Cauliflower Seed", "Watermelon Seed", "Rafflesia Seed"
-             , "Green Apple Seed", "Avocado Seed", "Banana Seed", "Pineapple Seed"
-             , "Kiwi Seed", "Bell Pepper Seed", "Prickly Pear Seed", "Loquat Seed"
-             , "Feijoa Seed", "Pitcher Plant", "Sugar Apple"]
+seedItems := seedItems := ["Carrot Seed", "Strawberry Seed", "Blueberry Seed", "Orange Tulip"
+             , "Tomato Seed", "Corn Seed", "Daffodil Seed", "Watermelon Seed"
+             , "Pumpkin Seed", "Apple Seed", "Bamboo Seed", "Coconut Seed"
+             , "Cactus Seed", "Dragon Fruit Seed", "Mango Seed", "Grape Seed"
+             , "Mushroom Seed", "Pepper Seed", "Cacao Seed", "Beanstalk Seed", "Ember Lily Seed", "Sugar Apple Seed", "Burning Bud Seed", "Giant Pinecone Seed", "Elder Strawberry Seed"] ;
 
 gearItems := ["Watering Can", "Trowel", "Recall Wrench", "Basic Sprinkler", "Advanced Sprinkler"
              , "Godly Sprinkler", "Magnifying Glass", "Tanning Mirror", "Master Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot"]
@@ -2709,3 +2709,4 @@ Gosub, StartScanMultiInstance
 Return
 
 #MaxThreadsPerHotkey, 2
+
